@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+* {
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #41fe07, #0ae97df8, #185bec54, #0d28c1b8);
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+
+}
+p{
+    font-weight: 900;
+}
+#result {
+    width: 180px;
+    height: 50px;
+    margin: 5px;
+    text-align: right;
+    background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
+    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+    font-weight: 900;
+}
+#operator {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    background-image: linear-gradient(to right, #00ff77, #21fcba2d, #c573003a, #ff000080);
+    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+    font-weight: 900;
+}
+button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: linear-gradient(to right, #3cd6e736, #b8dbe4f8, #269c7354, #5c73f723);
+
+
+}
+button:hover{
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
