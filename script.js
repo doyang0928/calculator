@@ -29,8 +29,8 @@ function onClickCalculate() {
         switch(operator) {
             case "+": $result.value = parseInt(operandOne) + parseInt(operandTwo); break;
             case "-": $result.value = operandOne - operandTwo; break;
-            case "*": $result.value = operandOne * operandTwo; break;
             case "/": $result.value = operandOne / operandTwo; break;
+            case "*": $result.value = operandOne * operandTwo; break;
             default: break;
         }
         $operator.value ="";
